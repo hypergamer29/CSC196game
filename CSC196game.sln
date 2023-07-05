@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33423.256
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{737051F3-7F61-421F-A880-292992B97A82}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Game", "Source\Game\Game\Game.vcxproj", "{CDC1EECB-898B-429E-BF48-1AE7FD7E5725}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Core", "Source\Engine\Core\Core.vcxproj", "{779A1483-EA4E-4E06-AE5B-35B66997D982}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Renderer", "Source\Engine\Renderer\Renderer.vcxproj", "{2F2CBD01-A608-456E-8487-6FDC5153C7DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,14 @@ Global
 		{779A1483-EA4E-4E06-AE5B-35B66997D982}.Release|x64.Build.0 = Release|x64
 		{779A1483-EA4E-4E06-AE5B-35B66997D982}.Release|x86.ActiveCfg = Release|Win32
 		{779A1483-EA4E-4E06-AE5B-35B66997D982}.Release|x86.Build.0 = Release|Win32
+		{2F2CBD01-A608-456E-8487-6FDC5153C7DC}.Debug|x64.ActiveCfg = Debug|x64
+		{2F2CBD01-A608-456E-8487-6FDC5153C7DC}.Debug|x64.Build.0 = Debug|x64
+		{2F2CBD01-A608-456E-8487-6FDC5153C7DC}.Debug|x86.ActiveCfg = Debug|Win32
+		{2F2CBD01-A608-456E-8487-6FDC5153C7DC}.Debug|x86.Build.0 = Debug|Win32
+		{2F2CBD01-A608-456E-8487-6FDC5153C7DC}.Release|x64.ActiveCfg = Release|x64
+		{2F2CBD01-A608-456E-8487-6FDC5153C7DC}.Release|x64.Build.0 = Release|x64
+		{2F2CBD01-A608-456E-8487-6FDC5153C7DC}.Release|x86.ActiveCfg = Release|Win32
+		{2F2CBD01-A608-456E-8487-6FDC5153C7DC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +52,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{CDC1EECB-898B-429E-BF48-1AE7FD7E5725} = {EF25BA3F-7C6C-49FC-AD5A-A9AE50A4E7EB}
 		{779A1483-EA4E-4E06-AE5B-35B66997D982} = {737051F3-7F61-421F-A880-292992B97A82}
+		{2F2CBD01-A608-456E-8487-6FDC5153C7DC} = {737051F3-7F61-421F-A880-292992B97A82}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6354103-09D8-40B3-A0AB-025579714381}
